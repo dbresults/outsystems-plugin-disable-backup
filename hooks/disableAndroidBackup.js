@@ -78,10 +78,10 @@ module.exports = function (ctx) {
     elementtree = ctx.requireCordovaModule("elementtree");
     */
     
-    var Q = ctx.require("q");
-    fs = ctx.require("fs");
-    path = ctx.require("path");
-    elementtree = ctx.require("elementtree");
+    var Q = require("q");
+    fs = require("fs");
+    path = require("path");
+    elementtree = require("elementtree");
     
     deferral = Q.defer();
 
